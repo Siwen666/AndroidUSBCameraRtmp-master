@@ -2,17 +2,25 @@
 buildscript {
     repositories {
         jcenter()
+        google()
+        maven {
+            url 'https://maven.aliyun.com/repository/google'
+            name 'Google'
+        }
     }
     dependencies {
         // gradle插件版本
-        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'com.android.tools.build:gradle:4.0.0'
     }
 }
 
 allprojects {
     repositories {
-        maven { url 'http://raw.github.com/saki4510t/libcommon/master/repository/' }
         jcenter()
+        google()
+        maven { url 'http://raw.github.com/saki4510t/libcommon/master/repository/' }
+        maven { url 'https://maven.aliyun.com/repository/google'}
+        maven { url "https://jitpack.io" }
     }
 }
 

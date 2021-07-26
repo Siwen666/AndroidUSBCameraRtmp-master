@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AndroidUSBCamera-master.iml" filepath="$PROJECT_DIR$/AndroidUSBCamera-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libusbcamera/libusbcamera.iml" filepath="$PROJECT_DIR$/libusbcamera/libusbcamera.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rtmp-client/rtmp-client.iml" filepath="$PROJECT_DIR$/rtmp-client/rtmp-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidUSBCameraRtmp-master.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidUSBCameraRtmp-master.iml" group="AndroidUSBCameraRtmp-master" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="AndroidUSBCameraRtmp-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/libusbcamera/libusbcamera.iml" filepath="$PROJECT_DIR$/libusbcamera/libusbcamera.iml" group="AndroidUSBCameraRtmp-master/libusbcamera" />
+      <module fileurl="file://$PROJECT_DIR$/rtmp-client/rtmp-client.iml" filepath="$PROJECT_DIR$/rtmp-client/rtmp-client.iml" group="AndroidUSBCameraRtmp-master/rtmp-client" />
     </modules>
   </component>
 </project>

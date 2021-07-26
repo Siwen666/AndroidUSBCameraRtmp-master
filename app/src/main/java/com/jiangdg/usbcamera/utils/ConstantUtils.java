@@ -5,7 +5,7 @@ package com.jiangdg.usbcamera.utils;
  */
 
 public class ConstantUtils {
-    public  static  final  String DEAUFUTRTMPURL="rtmp://193.112.184.133:10085/live/1232131231";
+    public  static  final  String DEAUFUTRTMPURL= "rtmp://192.168.1.81:1935/live/123456"; // "rtmp://193.112.184.133:10085/live/1232131231";
     public  static  final  int  DEAUFUTWIGHT=1280;
     public  static  final  int  DEAUFUTHEIGHT=720;
 }
